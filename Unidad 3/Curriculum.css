@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color:blue
+}
+h3{
+    font-style: italic;
+    font-size: 19px;
+}
+li{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color: chocolate;
+}
