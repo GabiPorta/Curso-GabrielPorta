@@ -1,0 +1,40 @@
+.contenedor{
+    border: 2px solid black;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item1{
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+.item2{
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+.item3{
+    background-color: green;
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    display: flex;
+}
