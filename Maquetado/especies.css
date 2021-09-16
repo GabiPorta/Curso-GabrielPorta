@@ -1,0 +1,208 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+header{
+    background-color: rgb(201, 204, 185);
+    padding: 1em 0; 
+}
+header h1{
+    text-align: center;
+    font: weight 600px;
+}
+nav{
+    background-color: rgb(195, 207, 173);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display:inline-block;
+    width: 20%;
+    text-align: center;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    width: 100;
+}
+nav ul li a:hover{
+    background-color: rgb(187, 202, 145);
+}
+nav ul li a.activo{
+    background-color: rgb(135, 151, 92);
+}
+footer{
+    background-color: lightgrey;
+    clear: both;
+    color: black;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+.capys{
+    background-color: rgb(201, 204, 185);
+    border: 1px solid grey;
+    border-radius: 0.9em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.capys h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+}
+.capys img{
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 black;
+}
+.capys p{
+    font-size: 1.5em;
+}
+.mara{
+    background-color: rgb(201, 204, 185);
+    border: 1px solid grey;
+    border-radius: 0.9em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.mara h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: black;  
+}
+.mara img{
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 black;
+}
+.mara p{
+    font-size: 1.5em;
+}
+.aguaraguazu{
+    background-color: rgb(201, 204, 185);
+    border: 1px solid grey;
+    border-radius: 0.9em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.aguaraguazu h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: black;  
+}
+.aguaraguazu img{
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 black;
+}
+.aguaraguazu p{
+    font-size: 1.5em;
+}
+.mapache{
+    background-color: rgb(201, 204, 185);
+    border: 1px solid grey;
+    border-radius: 0.9em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.mapache h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: black; 
+}
+.mapache img{
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 black;
+}
+.mapache p{
+    font-size: 1.5em;
+}
+.ñandu{
+    background-color: rgb(201, 204, 185);
+    border: 1px solid grey;
+    border-radius: 0.9em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;  
+}
+.ñandu h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+}
+.ñandu img{
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 black;
+}
+.ñandu p{
+    font-size: 1.5em;
+}
+.tapir{
+    background-color: rgb(201, 204, 185);
+    border: 1px solid grey;
+    border-radius: 0.9em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;  
+}
+.tapir h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: black;  
+}
+.tapir img{
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 black;
+}
+.tapir p{
+    font-size: 1.5em;
+}
+.huillin{
+    background-color: rgb(201, 204, 185);
+    border: 1px solid grey;
+    border-radius: 0.9em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden; 
+}
+.huillin h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: black; 
+}
+.huillin img{
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 black;
+}
+.huillin p{
+    font-size: 1.5em;
+}

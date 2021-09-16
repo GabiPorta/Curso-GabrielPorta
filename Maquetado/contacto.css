@@ -1,0 +1,73 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+header{
+    background-color: rgb(201, 204, 185);
+    padding: 1em 0; 
+}
+header h1{
+    text-align: center;
+    font: weight 600px;
+}
+nav{
+    background-color: rgb(195, 207, 173);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display:inline-block;
+    width: 20%;
+    text-align: center;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    width: 100;
+}
+nav ul li a:hover{
+    background-color: rgb(187, 202, 145);
+}
+nav ul li a.activo{
+    background-color: rgb(135, 151, 92);
+}
+footer{
+    background-color: lightgrey;
+    clear: both;
+    color: black;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+.columna{
+    box-sizing: border-box;
+    padding: 0.6em;
+    border-right: 1px solid gray;
+}
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+.formulario input{
+    width: 10%;
+}
+.formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+.columna h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
