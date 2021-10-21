@@ -1,0 +1,27 @@
+nav{
+    background-color: rgb(195, 207, 173);
+    margin-bottom: 2.5em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display:inline-block;
+    width: 20%;
+    text-align: center;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    width: 100;
+}
+nav ul li a:hover{
+    background-color: rgb(187, 202, 145);
+}
+nav ul li a.activo{
+    background-color: rgb(135, 151, 92);
+}

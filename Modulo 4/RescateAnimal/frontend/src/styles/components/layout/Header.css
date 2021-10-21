@@ -1,0 +1,8 @@
+header{
+    background-color: rgb(201, 204, 185);
+    padding: 1em 0; 
+}
+header h1{
+    text-align: center;
+    font: weight 600px;
+}
