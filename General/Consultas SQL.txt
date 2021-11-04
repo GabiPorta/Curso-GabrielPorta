@@ -1,0 +1,51 @@
+1) SELECT Nombre, Trabajo
+FROM empleados
+
+2) SELECT Nombre, Edad
+From empleados
+
+3) SELECT Nombre, Edad
+FROM empleados
+WHERE Trabajo LIKE '%Programador%'
+
+4) SELECT Nombre, Apellido
+FROM empleados
+WHERE Edad >30
+
+5) SELECT Apellido, Email
+FROM empleados
+WHERE Nombre LIKE '%Juan%'
+
+6) SELECT Nombre
+From empleados
+WHERE Trabajo LIKE '%Programador%'
+
+7) SELECT ID, Nombre, Apellido, Trabajo
+FROM empleados
+LIMIT 14,19
+
+8) SELECT Nombre, Trabajo LIKE '%Programador%'
+FROM empleados
+WHERE Salario <80000
+
+9) SELECT Nombre, Trabajo LIKE '%Programador%'
+FROM empleados
+WHERE Salario BETWEEN 75000 AND 90000
+
+10) SELECT Nombre, Apellido
+FROM empleados
+WHERE Apellido LIKE '%S'
+
+11) SELECT Nombre, Apellido
+FROM empleados
+WHERE Nombre LIKE 'I%'
+
+12) INSERT INTO empleados
+VALUES (null, 'Francisco', 'Perez', 'Programador', 26, 90000, 'francisco@bignet.com')
+
+13) DELETE FROM empleados
+WHERE ID=9
+
+14) UPDATE empleados
+SET Salario=90000
+WHERE ID=14
