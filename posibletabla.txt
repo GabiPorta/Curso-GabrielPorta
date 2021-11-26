@@ -1,0 +1,13 @@
+Tabla: Informacion
+
+ID:
+
+Especies:
+
+Rescatados:
+
+Liberados:
+
+No Aptos:
+
+Adoptables/Adoptados:
