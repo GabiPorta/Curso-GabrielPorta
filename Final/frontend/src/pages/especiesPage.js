@@ -1,7 +1,7 @@
 import React from "react";
 import '../../src/styles/components/pages/especiesPage.css'
 
-const especiesPage = (props) => {
+const EspeciesPage = (props) => {
     return (
             <div>
                 <center>
@@ -47,4 +47,4 @@ const especiesPage = (props) => {
     );
 }
 
-export default especiesPage;
+export default EspeciesPage;

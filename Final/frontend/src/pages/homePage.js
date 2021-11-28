@@ -1,7 +1,7 @@
 import '../styles/components/pages/homePage.css'
 
 import React from "react";
-const homePage = (props) => {
+const HomePage = (props) => {
 return (
        <main>
        <h2>¡Bienvenido a nuestro sitio!</h2>
@@ -14,5 +14,5 @@ return (
 );
 }
 
-export default homePage;
+export default HomePage;
 

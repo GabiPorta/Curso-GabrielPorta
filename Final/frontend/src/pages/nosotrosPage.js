@@ -1,7 +1,7 @@
 import '../styles/components/pages/nosotrosPage.css'
 
 import React from "react";
-const nosotrosPage = (props) => {
+const NosotrosPage = (props) => {
     return (
         <main>
         <div class="Historia">
@@ -34,4 +34,4 @@ const nosotrosPage = (props) => {
     );
 }
 
-export default nosotrosPage;
+export default NosotrosPage;

@@ -7,11 +7,11 @@ import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
 import Footer from './components/layout/Footer';
 
-import homePage from './pages/homePage';
-import nosotrosPage from './pages/nosotrosPage';
-import especiesPage from './pages/especiesPage';
-import contactoPage from './pages/contactoPage';
-import novedadesPage from './pages/novedadesPage';
+import HomePage from './pages/HomePage';
+import NosotrosPage from './pages/NosotrosPage';
+import EspeciesPage from './pages/EspeciesPage';
+import ContactoPage from './pages/ContactoPage';
+import NovedadesPage from './pages/NovedadesPage';
 
 function App() {
   return (
@@ -20,11 +20,11 @@ function App() {
      <Nav/>
      <Footer/>
      <Switch>
-       <Route path="/" exact component={homePage} />
-       <Route path="/nosotros" exact component={nosotrosPage} />
-       <Route path="/especies" exact component={especiesPage} />
-       <Route path="/contacto" exact component={contactoPage} />
-       <Route path="/novedades" exact component={novedadesPage} />
+       <Route path="/" exact component={HomePage} />
+       <Route path="/nosotros" exact component={NosotrosPage} />
+       <Route path="/especies" exact component={EspeciesPage} />
+       <Route path="/contacto" exact component={ContactoPage} />
+       <Route path="/novedades" exact component={NovedadesPage} />
      </Switch>
    </Router>
   );
